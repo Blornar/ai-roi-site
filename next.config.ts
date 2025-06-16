@@ -1,12 +1,11 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  /**  👇  THIS line turns on “next export” mode  */
-  output: 'export',
+const repoName = '/ai-roi-site';      //  change if you rename the repo
 
-  // If you’ll host under a sub-path, uncomment both lines
-  // basePath: '/ai-roi-site',
-  // assetPrefix: '/ai-roi-site/',
+const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: repoName,
+  assetPrefix: repoName + '/',
 };
 
 export default nextConfig;
