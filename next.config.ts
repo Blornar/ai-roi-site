@@ -1,6 +1,2 @@
-const nextConfig = {
-  output: 'export',
-  basePath: '/ai-roi-site',      //  <--- your repo name
-  assetPrefix: '/ai-roi-site/',  //  <--- repo name + trailing slash
-};
+const nextConfig = { output: 'export' };
 export default nextConfig;
