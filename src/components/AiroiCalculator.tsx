@@ -156,7 +156,7 @@ export default function AiroiCalculator() {
           </div>
 
           <Button asChild className="w-full">
-            <a href="https://www.linkedin.com/in/bpclarke/" target="_blank" rel="noopener noreferrer">Check our my Linkedin →</a>
+            <a href="https://www.linkedin.com/in/bpclarke/" target="_blank" rel="noopener noreferrer">Check out my Linkedin →</a>
           </Button>
         </CardContent>
       </Card>
