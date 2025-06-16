@@ -1,11 +1,6 @@
-import type { NextConfig } from 'next';
-
-const repoName = '/ai-roi-site';      //  change if you rename the repo
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
-  basePath: repoName,
-  assetPrefix: repoName + '/',
+  basePath: '/ai-roi-site',
+  assetPrefix: '/ai-roi-site/',
 };
-
 export default nextConfig;
